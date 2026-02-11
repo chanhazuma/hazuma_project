@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.m10{
+  margin: 10px;
+}
+.m20{
+  margin: 20px;
+}
+.p10{
+  padding: 10px;
+}
+.p20{
+  padding: 20px;
+}
+
+.bg-sz-cv{
+  background-size: cover;
+}
+.bg-sz-cn{
+  background-size: contain;
+}
+.bg-ps-c{
+  background-position: center;
+}
+.bg-ps-t{
+  background-position-y: 0%;
+}
+.bg-ps-b{
+  background-position-y: 100%;
+}
+.bg-ps-r{
+  background-position-x: 100%;
+}
+.bg-ps-l{
+  background-position-x: 0%;
+}
+.bg-nr{
+  background-repeat: no-repeat;
+}
+
+.hp-100{
+  height: 100%;
+}
+.hp-90{
+  height: 90%;
+}
+.hp-80{
+  height: 80%;
+}
+.hp-70{
+  height: 70%;
+}
+.hp-60{
+  height: 60%;
+}
+.hp-50{
+  height: 50%;
+}
+.hp-40{
+  height: 40%;
+}
+.hp-30{
+  height: 30%;
+}
+.hp-20{
+  height: 20%;
+}
+.hp-10{
+  height: 10%;
+}
+
+.h-20{
+  height: 20px;
+}
+.h-30{
+  height: 30px;
+}
+.h-40{
+  height: 40px;
+}
+.h-50{
+  height: 50px;
+}
+.h-60{
+  height: 60px;
+}
+.h-70{
+  height: 70px;
+}
+.h-80{
+  height: 80px;
+}
+
+.wp-100{
+  width: 100%;
+}
+.wp-90{
+  width: 90%;
+}
+.wp-80{
+  width: 80%;
+}
+.wp-70{
+  width: 70%;
+}
+.wp-60{
+  width: 60%;
+}
+.wp-50{
+  width: 50%;
+}
+.wp-40{
+  width: 40%;
+}
+.wp-30{
+  width: 30%;
+}
+.wp-20{
+  width: 20%;
+}
+.wp-10{
+  width: 10%;
+}
+
+.mt10{
+  margin-top: 10px;
+}
+.pt10{
+  padding-top: 10px;
+}
+.mr10{
+  margin-right: 10px;
+}
+.pr10{
+  padding-right: 10px;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.pb10{
+  padding-bottom: 10px;
+}
+.ml10{
+  margin-left: 10px;
+}
+.pl10{
+  padding-left: 10px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.pt20{
+  padding-top: 20px;
+}
+.mr20{
+  margin-right: 20px;
+}
+.pr20{
+  padding-right: 20px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.pb20{
+  padding-bottom: 20px;
+}
+.ml20{
+  margin-left: 20px;
+}
+.pl20{
+  padding-left: 20px;
+}
+
+.t0{
+  top: 0;
+}
+.t10{
+  top: 10px;
+}
+.r0{
+  right: 0;
+}
+.r10{
+  right: 10px;
+}
+.b0{
+  bottom: 0;
+}
+.b10{
+  bottom: 10px;
+}
+.l0{
+  left: 0;
+}
+.l10{
+  left: 10px;
+}
+
+.bdr-blk{
+  border-color: black;
+}
+.bdr-blk-t{
+  border-top-color: black;
+}
+.bdr-blk-r{
+  border-right-color: black;
+}
+.bdr-blk-b{
+  border-bottom-color: black;
+}
+.bdr-blk-l{
+  border-left-color: black;
+}
+.bdr-wht{
+  border-color: white;
+}
+.bdr-wht-t{
+  border-top-color: white;
+}
+.bdr-wht-r{
+  border-right-color: white;
+}
+.bdr-wht-b{
+  border-bottom-color: white;
+}
+.bdr-wht-l{
+  border-left-color: white;
+}
+.bdr1{
+  border-width: 1px;
+}
+.bdr2{
+  border-width: 2px;
+}
+.bdr-t1{
+  border-top-width: 1px;
+}
+.bdr-r1{
+  border-right-width: 1px;
+}
+.bdr-b1{
+  border-bottom-width: 1px;
+}
+.bdr-l1{
+  border-left-width: 1px;
+}
+.bdr-t2{
+  border-top-width: 2px;
+}
+.bdr-r2{
+  border-right-width: 2px;
+}
+.bdr-b2{
+  border-bottom-width: 2px;
+}
+.bdr-l2{
+  border-left-width: 2px;
+}
+.solid{
+  border-style: solid;
+}
+.solid-t{
+  border-top-style: solid;
+}
+.solid-r{
+ border-right-style: solid; 
+}
+.solid-b{
+  border-bottom-style: solid;
+}
+.solid-l{
+  border-left-style: solid;
+}
+.double{
+  border-style: double;
+}
+.double-t{
+  border-top-style: double;
+}
+.double-r{
+  border-right-style: double;
+}
+.double-b{
+  border-bottom-style: double;
+}
+.double-l{
+  border-left-style: double;
+}
+.dashed{
+  border-style: dashed;
+}
+.dashed-t{
+  border-top-style: dashed;
+}
+.dashed-r{
+  border-right-style: dashed;
+}
+.dashed-b{
+  border-bottom-style: dashed;
+}
+.dashed-l{
+  border-left-style: dashed;
+}
+.bdr-rds12{
+  border-radius: 12px;
+}
+.bdr-rds20{
+  border-radius: 20px;
+}
+.bdr-rds-p50{
+  border-radius: 50%;
+}
+.bdr-rds-t12{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.bdr-rds-b12{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.bdr-rds-t20{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.bdr-rds-b20{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.flexrow{
+  display: flex;
+}
+.flexcol{
+  display: flex;
+  flex-direction: column;
+}
+.jst-c{
+  justify-content: center;
+}
+.jst-l{
+  justify-content: flex-start;
+}
+.jst-r{
+  justify-content: flex-end;
+}
+.jst-spca{
+  justify-content: space-around;
+}
+.jst-spcb{
+  justify-content: space-between;
+}
+.algn-c{
+  align-items: center;
+}
+.algn-l{
+  align-items: flex-start;
+}
+.algn-r{
+  align-items: flex-end;
+}
+
+.pss-fx{
+  position: fixed;
+}
+.pss-stc{
+  position: sticky;
+}
+.pss-rlt{
+  position: relative;
+}
+.pss-abs{
+  position: absolute;
+}
