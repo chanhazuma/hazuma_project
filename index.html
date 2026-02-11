@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="hana.css">
   <link rel="icon" href="logo.png" type="image/png" sizes="32x32">
  <link rel="stylesheet" href="hanaa.css">
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#f8c8dc">
 </head>
 <body class="bg-gradient-pink flexrow jst-c">
 <main style="background: url('hana.jpeg') center/cover; min-height: 100vh;"class="ukr-d-hp flexcol algn-c pss-rlt">
@@ -26,5 +28,10 @@ This is just the first chapter — there will be more to come.</p>
   </article>
   <footer style="background: #fff;"class="pss-abs b0 wp-100 h-40 b0 bdr-rds-t20 bdr-blk-t bdr-t2 solid-t flexcol jst-c"><p style="text-align: center;">&copy;2026 Hazuma_chan_project <strong>All Right Reserved</strong></p></footer>
 </main>
+  <script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/hazuma_project/app.js");
+}
+</script>
 </body>
 </html>
