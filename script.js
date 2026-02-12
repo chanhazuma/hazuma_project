@@ -1,4 +1,4 @@
-alert("js kebaca");
+alert("Selamat datang(≧◡≦)💕");
 document.getElementById("down").addEventListener("click", function(e){
  document.getElementById("header").classList.add("headeractive", "jst-l", "pt20", "bg-glass");
  document.getElementById("footer").classList.remove("pss-abs");
