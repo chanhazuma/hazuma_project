@@ -2,8 +2,8 @@
   width: min(99.6vw, 458px);
 }
 .bg-glass{
-  background: #ffffff25;
-  backdrop-filter: blur(5px);
+  background: #ffffff25;!important
+  backdrop-filter: blur(5px);!important
 }
 .bg-gradient-pink{
   background: linear-gradient(to right, #FFF1F5, #FFD6E5, #FFB7CF);
