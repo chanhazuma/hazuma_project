@@ -1,7 +1,7 @@
 alert("js kebaca");
-let btdown = document.getElementById("down");
+document.getElementById("down").addEventListener("click", function(e){
+ document.getElementById("header").classList.add("headeractive", "algn-l", "pt20");
+});
 document.getElementById("up").addEventListener("click", function(e){
- document.getElementById("header").classList.toggle("headeractive");
- document.getElementById("header").classList.toggle("algn-l");
- document.getElementById("header").classList.toggle("pt20");
+  document.getElementById("header").classList.remove("headeractive", "algn-l", "pt20");
 });
