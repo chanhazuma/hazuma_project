@@ -1,5 +1,6 @@
 .headeractive{
   height: 90vh;
+  overflow: scroll!important;
 }
 .logoactive{
   background: #fff;
