@@ -9,7 +9,7 @@
   top: 0;
 }
 .navmenuactive{
-  translateX: 0!important;
+  transform: translateX(0);
   opacity: 1!important;
 }
 .footeractive{
