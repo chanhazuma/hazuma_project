@@ -11,7 +11,7 @@
   animation: fall 5s ease infinite;
 }
 #header{
-  transition: height .4;
+  transition: height .4 ease;
 }
 @keyframes fall{
    0%   { background-position: 0% 50%; }
