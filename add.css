@@ -5,6 +5,7 @@
 .logoactive{
   background: #fff;
   border-radius: 20px;
+  position: absolute;
 }
 .footeractive{
   height: 8vh;
