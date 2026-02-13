@@ -9,8 +9,8 @@
   top: 0;
 }
 .navmenuactive{
-  translateX: 0;
-  opacity: 1;
+  translateX: 0!important;
+  opacity: 1!important;
 }
 .footeractive{
   height: 8vh;
