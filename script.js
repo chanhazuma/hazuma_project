@@ -4,7 +4,6 @@ document.getElementById("down").addEventListener("click", function(e){
  document.getElementById("footer").classList.remove("pss-abs");
  document.getElementById("footer").classList.add("pss-fx","ukr-d-hp", "footeractive");
  document.getElementById("logo").classList.add("logoactive");
- document.getElementById("navmenu").classList.toggle("navmenuactive");
 });
 document.getElementById("up").addEventListener("click", function(e){
   document.getElementById("header").classList.remove("headeractive", "pt20", "bg-glass");
