@@ -8,10 +8,6 @@
   position: sticky;
   top: 0;
 }
-.navmenuactive{
-  transform: translateY(0%)!important;
-  opacity: 1!important;
-}
 .footeractive{
   height: 8vh;
 }
