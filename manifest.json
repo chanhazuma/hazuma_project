@@ -1,9 +1,9 @@
 {
   "name": "Hazuma Project",
   "short_name": "Hazuma",
-  "start_url": "/",
-  "scope": "/",
-  "id": "/"
+  "start_url": "/hazuma_project/",
+  "scope": "/hazuma_project/",
+  "id": "/hazuma_project/"
   "display": "standalone",
   "background_color": "#f8c8dc",
   "theme_color": "#f8c8dc",
